@@ -1,0 +1,24 @@
+.fill-remaining-space {
+    /* This fills the remaining space, by using flexbox. 
+       Every toolbar row uses a flexbox row layout. */
+    flex: 1 1 auto;
+  }
+
+.tittle{
+   font-family: 'Pacifico', cursive;
+   font-size: larger;
+   padding: 10px;
+   text-shadow: 0 4px 0 rgba($color: #000000, $alpha: 1.0);
+ } 
+
+ .social a:link{
+    color: rgba($color: #ffffff, $alpha: 1.0)
+ }
+
+ .social a:hover{
+    color: rgba($color: #000000, $alpha: 1.0);
+ }
+
+ .social a:visited{
+    color: rgba($color: #d1b5ff, $alpha: 1.0);
+ }
