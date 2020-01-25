@@ -9,6 +9,16 @@
     "lint": "ng lint",
     "e2e": "ng e2e"
   },
+  "keywords": [
+    "angular",
+    "api",
+    "news",
+    "tech",
+    "coding",
+    "dev"
+  ],
+  "author": "Stathis kaloutsidis",
+  "license": "MIT",
   "private": true,
   "dependencies": {
     "@angular/animations": "~8.2.14",
