@@ -1,5 +1,7 @@
 # YourDailyNews
 
+[![Codacy Badge](https://api.codacy.com/project/badge/Grade/e2f432d5b189404194978f4c4a5fdc89)](https://app.codacy.com/manual/efstathioskaloutsidis/YourDailyNews?utm_source=github.com&utm_medium=referral&utm_content=Stathis-Kal/YourDailyNews&utm_campaign=Badge_Grade_Settings)
+
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 8.3.23.
 
 ## Development server
