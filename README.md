@@ -15,7 +15,9 @@ All news are from [News Api](https://newsapi.org/)
 ## Getting Started
 Use **git clone https://github.com/Stathis-Kal/YourDailyNews.git**
 
-Install **Angular CLI** using npm. `npm install -g @angular/cli`
+Run `npm install` in the project directory to install dependencies.  
+
+Install **Angular CLI** using npm. `npm install -g @angular/cli`. Linux users will want to run this command with sudo.
 
 Run `ng serve --o` for a dev server. Your default browser will open due to the --o (open) parameter to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
 
