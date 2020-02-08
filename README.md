@@ -1,24 +1,27 @@
-# YourDailyNews
+# Your Daily News 📰
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 8.3.23.
 
-## Development server
+[![Codacy Badge](https://api.codacy.com/project/badge/Grade/b60afbed9d5b4c369e6c43dbd803bb72)](https://www.codacy.com/manual/efstathioskaloutsidis/YourDailyNews?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=Stathis-Kal/YourDailyNews&amp;utm_campaign=Badge_Grade)
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+[![Total alerts](https://img.shields.io/lgtm/alerts/g/Stathis-Kal/YourDailyNews.svg?logo=lgtm&logoWidth=18)](https://lgtm.com/projects/g/Stathis-Kal/YourDailyNews/alerts/)
 
-## Code scaffolding
+[![Language grade: JavaScript](https://img.shields.io/lgtm/grade/javascript/g/Stathis-Kal/YourDailyNews.svg?logo=lgtm&logoWidth=18)](https://lgtm.com/projects/g/Stathis-Kal/YourDailyNews/context:javascript)
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+[![License: MIT](https://img.shields.io/badge/License-MIT-blue)](LICENSE.md)
 
-## Build
+All news are from [News Api](https://newsapi.org/)
+
+## Getting Started
+Use **git clone https://github.com/Stathis-Kal/YourDailyNews.git**
+
+Install **Angular CLI** using npm. `npm install -g @angular/cli`
+
+Run `ng serve --o` for a dev server. Your default browser will open due to the --o (open) parameter to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
 
 Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
 
-## Running unit tests
-
 Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
 
 Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
 
