@@ -8,11 +8,17 @@ import { FlexLayoutModule } from '@angular/flex-layout';
 import { AppComponent } from './app.component';
 import { MaterialModule } from './shared/material.module';
 import { ToolbarComponent } from './toolbar/toolbar.component';
+import { MainContentComponent } from './main-content/main-content.component';
+import { NewsComponent } from './main-content/news/news.component';
+import { SideNavComponent } from './toolbar/side-nav/side-nav.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    ToolbarComponent
+    ToolbarComponent,
+    MainContentComponent,
+    NewsComponent,
+    SideNavComponent
   ],
   imports: [
     BrowserModule,

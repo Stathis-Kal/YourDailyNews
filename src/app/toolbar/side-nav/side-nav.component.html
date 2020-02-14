@@ -1,0 +1,30 @@
+<mat-sidenav-container class="sidenav-container">
+    <mat-sidenav #sidenav class="sidenav">
+        <mat-toolbar color="primary">
+            <mat-icon>list</mat-icon>
+            Menu
+        </mat-toolbar>
+        <mat-list>
+            <mat-list-item>
+                <mat-icon>home</mat-icon>
+                Home
+            </mat-list-item>
+            <mat-divider></mat-divider>
+            <mat-list-item>
+                <mat-icon>info</mat-icon>
+                About
+            </mat-list-item>
+            <mat-divider></mat-divider>
+            <mat-list-item>
+                <mat-icon>copyright</mat-icon>
+                {{currentYear}} 
+                Stathis Kaloutsidis.
+            </mat-list-item>
+        </mat-list>
+    </mat-sidenav>
+
+    <div class="sidenav-content">
+        <app-toolbar (toggleSidenav)="sidenav.toggle()"></app-toolbar>
+        <app-main-content></app-main-content>
+    </div>
+</mat-sidenav-container>

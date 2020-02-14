@@ -26,3 +26,13 @@
  .social a:active{
    color: rgba($color: #0434a5, $alpha: 1.0);
 }
+
+mat-slide-toggle {
+   font-size: .950rem;   
+   margin: 10px;
+   font-family: Arial, Helvetica, sans-serif;
+}
+
+mat-toolbar-row{
+   justify-content: space-between;
+}

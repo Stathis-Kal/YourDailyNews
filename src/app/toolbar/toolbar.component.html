@@ -1,18 +1,23 @@
 <link href="https://fonts.googleapis.com/css?family=Pacifico&display=swap" rel="stylesheet">
-<mat-toolbar color="primary">
-    <button mat-button>
-        <mat-icon>menu</mat-icon>
-    </button>
-    <span class="tittle">Your Daily News</span>
-    <span class="fill-remaining-space"></span>
-    <button mat-icon-button class="social">
-        <a href="https://gr.linkedin.com/in/efstathios-kaloutsidis" target="_blank">
-            <fa-icon [icon]="['fab', 'linkedin']" size="lg" [fixedWidth]="true"></fa-icon>
-        </a>
-    </button>
-    <button mat-icon-button class="social">
-        <a href="https://github.com/Stathis-Kal" target="_blank">
-            <fa-icon [icon]="['fab', 'github']" size="lg" [fixedWidth]="true"></fa-icon>
-        </a>
-    </button>
+<mat-toolbar color="primary" [class.alt]="otherTheme">
+    <mat-toolbar-row>
+        <button mat-button (click)="toggleSidenav.emit()">
+            <mat-icon>menu</mat-icon>
+        </button>
+        <span class="tittle">Your Daily News</span>
+        <span class="fill-remaining-space"></span>
+        <button mat-icon-button class="social">
+            <a href="https://gr.linkedin.com/in/efstathios-kaloutsidis" target="_blank">
+                <fa-icon [icon]="['fab', 'linkedin']" size="lg" [fixedWidth]="true"></fa-icon>
+            </a>
+        </button>
+        <button mat-icon-button class="social">
+            <a href="https://github.com/Stathis-Kal" target="_blank">
+                <fa-icon [icon]="['fab', 'github']" size="lg" [fixedWidth]="true"></fa-icon>
+            </a>
+        </button>
+        <div>
+            <mat-slide-toggle>Dark theme</mat-slide-toggle>
+        </div>
+    </mat-toolbar-row>
 </mat-toolbar>
