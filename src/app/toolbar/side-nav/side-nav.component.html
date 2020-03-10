@@ -1,22 +1,25 @@
 <mat-sidenav-container class="sidenav-container">
-    <mat-sidenav #sidenav class="sidenav">
+    <mat-sidenav #sidenav class="sidenav" role="navigation" mode="push">
         <mat-toolbar color="primary">
-            <mat-icon>list</mat-icon>
+            <button mat-button (click)="sidenav.close()"
+                matTooltip="Close the menu pane">
+                <mat-icon>list</mat-icon>
+            </button>
             Menu
         </mat-toolbar>
         <mat-list>
             <mat-list-item>
-                <mat-icon>home</mat-icon>
+                <mat-icon class="list-item-icon">home</mat-icon>
                 Home
             </mat-list-item>
             <mat-divider></mat-divider>
             <mat-list-item>
-                <mat-icon>info</mat-icon>
+                <mat-icon class="list-item-icon">info</mat-icon>
                 About
             </mat-list-item>
             <mat-divider></mat-divider>
             <mat-list-item>
-                <mat-icon>copyright</mat-icon>
+                <mat-icon class="list-item-icon">copyright</mat-icon>
                 {{currentYear}} 
                 Stathis Kaloutsidis.
             </mat-list-item>
