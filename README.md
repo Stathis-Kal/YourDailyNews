@@ -1,27 +1,30 @@
-# YourDailyNews
+# Your Daily News 📰
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 8.3.23.
 
-## Development server
+[![Codacy Badge](https://api.codacy.com/project/badge/Grade/b60afbed9d5b4c369e6c43dbd803bb72)](https://www.codacy.com/manual/efstathioskaloutsidis/YourDailyNews?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=Stathis-Kal/YourDailyNews&amp;utm_campaign=Badge_Grade) [![Total alerts](https://img.shields.io/lgtm/alerts/g/Stathis-Kal/YourDailyNews.svg?logo=lgtm&logoWidth=18)](https://lgtm.com/projects/g/Stathis-Kal/YourDailyNews/alerts/) [![Language grade: JavaScript](https://img.shields.io/lgtm/grade/javascript/g/Stathis-Kal/YourDailyNews.svg?logo=lgtm&logoWidth=18)](https://lgtm.com/projects/g/Stathis-Kal/YourDailyNews/context:javascript) [![License: MIT](https://img.shields.io/badge/License-MIT-blue)](https://opensource.org/licenses/MIT)
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+A singe web page app to read news across the globe.
+All news are fetched from [News Api](https://newsapi.org/).
 
-## Code scaffolding
+## Getting Started
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+- Use **`git clone https://github.com/Stathis-Kal/YourDailyNews.git`**
 
-## Build
+- Run `npm install` in the project directory to install dependencies
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
+- Install **Angular CLI** using npm. `npm install -g @angular/cli` Linux users will want to run this command with sudo
 
-## Running unit tests
+- Run `ng serve --o` for a dev server. Your default browser will open due to the --o (open) flag in `http://localhost:4200/`. The app will automatically reload if you change any of the source files
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+- Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build
 
-## Running end-to-end tests
+- Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io)
 
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
-
+- Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/)
+  
 ## Further help
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+
+You can also contact me on [LinkedIn](https://www.linkedin.com/in/efstathios-kaloutsidis/).
