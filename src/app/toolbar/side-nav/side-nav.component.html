@@ -1,26 +1,24 @@
 <mat-sidenav-container class="sidenav-container">
     <mat-sidenav #sidenav class="sidenav" role="navigation" mode="push">
         <mat-toolbar color="primary">
-            <button mat-button (click)="sidenav.close()"
-                matTooltip="Close the menu pane">
+            <button mat-button (click)="sidenav.close()" matTooltip="Close the menu pane">
                 <mat-icon>close</mat-icon>
             </button>
-            Menu
+            <span class="menu">Menu</span>
         </mat-toolbar>
         <mat-list>
-            <mat-list-item>
-                <mat-icon class="list-item-icon">home</mat-icon>
-                Home
-            </mat-list-item>
+            <a mat-list-item routerLink="/">
+                <mat-icon class="list-item-icon">home</mat-icon><span>Home</span>
+            </a>
             <mat-divider></mat-divider>
-            <mat-list-item>
+            <a mat-list-item routerLink="/about">
                 <mat-icon class="list-item-icon">info</mat-icon>
-                About
-            </mat-list-item>
+                <span>About</span>
+            </a>
             <mat-divider></mat-divider>
             <mat-list-item>
                 <mat-icon class="list-item-icon">copyright</mat-icon>
-                {{currentYear}} 
+                {{ currentYear }}
                 Stathis Kaloutsidis.
             </mat-list-item>
         </mat-list>
@@ -28,6 +26,10 @@
 
     <div class="sidenav-content">
         <app-toolbar (toggleSidenav)="sidenav.toggle()"></app-toolbar>
-        <app-main-content></app-main-content>
+        <div class="wrapper">
+            <router-outlet></router-outlet>
+        </div>
     </div>
+
+
 </mat-sidenav-container>
