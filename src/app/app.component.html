@@ -1,1 +1,5 @@
-<app-side-nav></app-side-nav>
+<div [ngClass]="{'dark-theme': isDarkTheme | async}">
+    <div class="mat-app-background">
+        <app-side-nav></app-side-nav>
+    </div>
+</div>

@@ -17,7 +17,8 @@
             </a>
         </button>
         <div>
-            <mat-slide-toggle>Dark theme</mat-slide-toggle>
+            <mat-slide-toggle [checked]="isDarkTheme | async" (change)="toggleDarkTheme($event.checked)">Dark theme
+            </mat-slide-toggle>
         </div>
     </mat-toolbar-row>
 </mat-toolbar>
