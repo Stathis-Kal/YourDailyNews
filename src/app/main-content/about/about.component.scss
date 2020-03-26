@@ -8,3 +8,17 @@ span{
     color:red;
     font-weight: bold;
 }
+
+a{
+    text-decoration: none;
+}
+
+a:hover{
+    font-size: 110%;
+    text-decoration: underline; 
+}
+
+mat-card-content{
+    font-size: 20px;
+    text-align: justify;
+}
