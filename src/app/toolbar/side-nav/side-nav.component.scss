@@ -20,3 +20,21 @@
 .list-item-icon{
   margin-right: 6px;
 }
+
+.menu {
+ padding: 10px;
+}
+span, a:link, a:visited {
+    background-color: transparent;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+  }
+  
+a:hover, a:active {
+    font-size: 130%;
+  }
+
+.wrapper {
+    margin: 50px;
+  }

@@ -5,8 +5,6 @@ import { faGithub, faLinkedin } from '@fortawesome/free-brands-svg-icons';
 import { Observable } from 'rxjs';
 import { ThemeService } from '../shared/theme.service';
 
-
-
 @Component({
   selector: 'app-toolbar',
   templateUrl: './toolbar.component.html',
