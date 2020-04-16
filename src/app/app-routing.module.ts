@@ -12,7 +12,7 @@ const appRoutes: Routes = [
           { path: '', component: HomeComponent },
           { path: 'news', component: NewsComponent },
           { path: 'about', component: AboutComponent }
-      ] },    
+      ] },
     { path: '**', redirectTo: '/'}
 ];
 

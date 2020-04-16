@@ -11,5 +11,5 @@ export class ThemeService {
   setDarkTheme(isDarkTheme: boolean){
     this._darkTheme.next(isDarkTheme);
   }
-  
+
 }

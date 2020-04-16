@@ -1,3 +1,49 @@
+<mat-card class="clearfix">
+
+    <mat-card-header>
+        <mat-card-title>Search Parameters</mat-card-title>
+    </mat-card-header>
+
+    <div class="flex-criteria-container">
+
+        <mat-form-field appearance="outline">
+            <mat-label>Search for..</mat-label>
+            <input matInput placeholder="e.g. Angular">
+            <mat-icon matSuffix>search</mat-icon>
+        </mat-form-field>
+
+        <mat-form-field appearance="standard">
+            <mat-label>Select a country <mat-icon matSuffix>public</mat-icon>
+            </mat-label>
+            <mat-select>
+                <mat-option>None</mat-option>
+                <mat-option *ngFor="let country of countries" [value]="country"> {{ country }} </mat-option>
+            </mat-select>
+        </mat-form-field>
+
+        <mat-form-field appearance="standard">
+            <mat-label>Select a category <mat-icon matSuffix>library_books</mat-icon>
+            </mat-label>
+            <mat-select>
+                <mat-option>None</mat-option>
+                <mat-option *ngFor="let category of categories" [value]="category"> {{ category }} </mat-option>
+            </mat-select>
+        </mat-form-field>
+
+        <button mat-raised-button matTooltip="Submit the search criteria" color="accent">Ready to search <mat-icon
+                matSuffix>done</mat-icon>
+        </button>
+
+        <button mat-mini-fab matTooltip="Reset the search criteria">
+            <mat-icon>refresh</mat-icon>
+        </button>
+
+    </div>
+
+</mat-card>
+
+
+
 <div class="flex-container" fxLayout.xs="column">
 
     <div class="flex-item">
