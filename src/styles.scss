@@ -10,8 +10,8 @@ $main-theme: mat-light-theme($main-primary, $main-accent, $main-warn);
 @include angular-material-theme($main-theme);
 
 .dark-theme{
-    $dark-primary: mat-palette($mat-grey, 900); 
-    $dark-accent:  mat-palette($mat-cyan, 900); 
+    $dark-primary: mat-palette($mat-grey, 900);
+    $dark-accent:  mat-palette($mat-cyan, 900);
     $dark-warn:    mat-palette($mat-deep-orange, 700);
     
     $dark-theme:   mat-dark-theme($dark-primary, $dark-accent, $dark-warn);
