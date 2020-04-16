@@ -9,7 +9,7 @@ import { ThemeService } from './shared/theme.service';
 })
 export class AppComponent implements OnInit{
    isDarkTheme: Observable<boolean>;
-   
+
    constructor(private themeService: ThemeService){}
 
    ngOnInit(){

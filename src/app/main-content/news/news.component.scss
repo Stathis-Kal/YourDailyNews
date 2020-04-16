@@ -1,8 +1,11 @@
 .flex-container {
     display: flex;
+    display: -webkit-flex;
 	flex-flow: row wrap;
-	justify-content: space-around;
-	align-items: flex-start;
+    justify-content: space-around;
+    -webkit-justify-content: space-around;
+    align-items: flex-start;
+    -webkit-align-items: flex-start;
 }
 
 @media all and (max-width: 800px) {
@@ -19,4 +22,21 @@
 .news-btn a:link, a:visited, a:hover, a:active {
     text-decoration: none;
     color: black;
+}
+
+.flex-criteria-container {
+    display: -webkit-flex;
+    display: flex;
+    -webkit-justify-content: space-around;
+    justify-content: space-around;
+    -webkit-align-items: baseline;
+    align-items: baseline;
+    -webkit-align-content: flex-start;
+    align-content: flex-start;
+    flex-wrap: wrap; 
+    -webkit-flex-wrap: wrap;
+}
+
+.clearfix {
+    overflow: auto;
 }

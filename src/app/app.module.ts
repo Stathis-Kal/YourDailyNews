@@ -30,7 +30,7 @@ import { AppRoutingModule } from './app-routing.module';
     MaterialModule,
     FontAwesomeModule,
     FlexLayoutModule,
-    AppRoutingModule  
+    AppRoutingModule
   ],
   providers: [],
   bootstrap: [AppComponent]
