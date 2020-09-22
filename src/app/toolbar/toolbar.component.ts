@@ -3,7 +3,7 @@ import { Component, OnInit, Output, EventEmitter } from '@angular/core';
 import { FaIconLibrary } from '@fortawesome/angular-fontawesome';
 import { faGithub, faLinkedin } from '@fortawesome/free-brands-svg-icons';
 import { Observable } from 'rxjs';
-import { ThemeService } from '../shared/theme.service';
+import { ThemeService } from '../shared/services/theme.service';
 
 @Component({
   selector: 'app-toolbar',

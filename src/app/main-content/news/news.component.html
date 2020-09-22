@@ -46,32 +46,26 @@
 
 <div class="flex-container" fxLayout.xs="column">
 
-    <div class="flex-item">
+    <div class="flex-item" *ngFor="let news of listOfNews">
 
         <mat-card class="news">
 
             <mat-card-header>
                 <img mat-card-avatar src="../../../assets/768px-Internet-news-reader.svg.png" alt="news_avatar">
-                <mat-card-title>Is Bitcoin Still Relevant Today?</mat-card-title>
-                <mat-card-subtitle>By Adam Gottlieb</mat-card-subtitle>
+                <mat-card-title> {{ news.title }}</mat-card-title>
+                <mat-card-subtitle>By {{ news.author }} </mat-card-subtitle>
             </mat-card-header>
 
-            <img mat-card-image src="https://material.angular.io/assets/img/examples/shiba2.jpg"
-                alt="Photo of a Shiba Inu">
+            <img mat-card-image [src]="news.urlToImage">
 
             <mat-card-content>
-                <p>Conceptualized in 2009, bitcoin is a digital currency that leverages peer-to-peer technology
-                    to facilitate instant payments. Its value dramatically plummeted over the past couple of years, but
-                    it
-                    seems
-                    that this cryptocurrency is ready to put this turbulent p…
-                </p>
+                <p> {{ news.description}} </p>
             </mat-card-content>
 
             <mat-card-actions>
 
                 <button class="news-btn" type="button" mat-raised-button color='accent'>
-                    <a href="https://frugalentrepreneur.com/2020/02/is-bitcoin-still-relevant-today/" target="_blank">
+                    <a [href]="news.url" target="_blank">
                         Read more
                     </a>
                 </button>

@@ -3,6 +3,7 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { NgModule } from '@angular/core';
 import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
 import { FlexLayoutModule } from '@angular/flex-layout';
+import { HttpClientModule } from '@angular/common/http';
 
 import { AppComponent } from './app.component';
 import { MaterialModule } from './shared/material.module';
@@ -30,6 +31,7 @@ import { AppRoutingModule } from './app-routing.module';
     MaterialModule,
     FontAwesomeModule,
     FlexLayoutModule,
+    HttpClientModule,
     AppRoutingModule
   ],
   providers: [],

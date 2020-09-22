@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { News } from '../../shared/model/news';
 
 @Component({
   selector: 'app-news',
@@ -64,7 +65,7 @@ export class NewsComponent implements OnInit {
     'Venuzuela'
   ];
 
-  categories: string [] = [
+  categories: string[] = [
     'Business',
     'Entertainment',
     'General',
@@ -74,9 +75,10 @@ export class NewsComponent implements OnInit {
     'Technology'
   ]
 
-  constructor() { }
+  listOfNews: News[];
 
   ngOnInit() {
-  }
+
+}
 
 }
